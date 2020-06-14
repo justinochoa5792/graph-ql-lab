@@ -1,0 +1,9 @@
+type Query {
+  login(email: String!, password: String!): String!
+}
+
+type User {
+  email: String
+  password: String
+  accessToken: String
+}
